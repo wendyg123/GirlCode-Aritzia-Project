@@ -1,0 +1,310 @@
+    * {
+        font-family: sans-serifc, Verdana;
+    }
+    body {
+      background: #ffffff;
+      margin-left: 8px;
+      padding: 0px 10px;
+    }
+    .about {
+        margin-top: 10px; /* Adds spacing above the container */
+    }
+    .aritziatopbar {
+        height: 140px;
+        width: 1400px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .styleyouraritzia {
+        height: 570px;
+        width: 1300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .yourstyle {
+      position: absolute;
+      left: 734px;
+      top: 110px
+      
+      
+    }
+    .yourstyle a {
+      text-decoration: none;
+      font-size: 15.8px;
+      color: #000000;
+      display: block;
+    }
+    
+    .yourstyle a:hover {
+      color: #978c8c;
+    }
+
+    .sharedstyles {
+      position: absolute;
+      left: 825px;
+      top: 111px
+    }
+    .sharedstyles a {
+
+      text-decoration: none;
+      font-size: 15.5px;
+      color: #000000;
+      display: block;
+    }
+    
+    .sharedstyles a:hover {
+      color: #978c8c;
+    }
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: left;
+  overflow: hidden;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffffff;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #b3b3b3;
+  text-color: #ffffff
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+/* Skin Color Button 1*/
+.skinButton1 {
+  color: #4f1b2b;
+  background: #4f1b2b;
+  border-radius: 50%;
+  border: 2px solid #4f1b2b;
+  padding: 20px 10px
+
+}
+
+
+/* Skin Color Button 2*/
+.skinButton2 {
+  color: #D0A681;
+  background: #D0A681;
+  border-radius: 70%;
+  border: 2px solid #D0A681;
+  padding: 20px 10px
+
+}
+
+/* Skin Color Button 3*/
+.skinButton3 {
+  color: #FAEADE;
+  background: #FAEADE;
+  border-radius: 50%;
+  border: 2px solid #FAEADE;
+  padding: 20px 10px
+
+  
+}
+
+
+
+
+
+
+
+
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+/*   width: 100%; */
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
+/* ----------------New Code (making pop up info on shared post)---------------- */
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+/*   width: 100%; */
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+
+/* ----------------New Code (making style card)---------------- */
+.card {
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 310px;
+  margin: auto;
+  text-align: left;
+  background-color: black;
+/*   font-family: arial; */
+}
+
+.productCard {
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: left;
+  background-color: white;
+/*   font-family: arial; */
+}
+
+.title {
+  color: white;
+  padding-left: 10px;
+  font-family:"Century Gothic", CenturyGothic;
+}
+
+.creator {
+  color: grey;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-family:"Century Gothic", CenturyGothic;
+}
+
+.heart {
+  top = 10px;
+}
+
+.likes {
+  color: grey;
+  font-size: 18px;
+  font-family:"Century Gothic", CenturyGothic;
+}
+
+.brand {
+  color: black;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.productName {
+  color: black;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+/* .price {
+  color: black;
+} */
+
+.quickView a {
+  text-decoration: none;
+  font-size: 15.8px;
+  color: #000000;
+  display: block;
+  padding-left: 10px;
+}
+
+.quickView a:hover {
+  color: #978c8c;
+}
+
+.styleProduct a {
+  text-decoration: none;
+  font-size: 15.8px;
+  color: #000000;
+  display: block;
+  padding-left: 10px;
+}
+
+.styleProduct a:hover {
+  color: #978c8c;
+}
+
+.shorts {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
