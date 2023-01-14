@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Styles</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+
+  <!-- AritziaTopBar -->
+	<div class="about">
+		<img width="200px" height="400px" class="aritziatopbar" src="images/topbar.png"/>
+	</div>
+
+  <div class="yourstyle">
+     <a href="yourstyle.html">Your style</a>
+  </div>
+
+  <div class="sharedstyles">
+     <a href="sharedstyles1.html">Shared styles</a>
+  </div>
+
+
+
+  
+<!-- Row Of Shared Styles -->
+  <div class="row">
+    <div class="column" onclick="openTab('CozySummer');">
+      <div class="card">
+        <img src="images/style1.png" alt="CozySummer" style="width:100%">
+        <div class="title">
+          Cozy Summer &nbsp
+          <img class="heart" src="images/redheart.png" style="width:10%">
+          <span class="likes">10.2k</span>
+        </div>
+        <div class="creator">@TNA</div>
+      </div>
+    </div>
+
+    <div class="column" onclick="openTab('GirlsNight');">
+      <div class="card">
+        <img src="images/style2.png" alt="GirlsNight" style="width:100%">
+        <div class="title">
+          Girls Night &nbsp &nbsp &nbsp
+          <img class="heart" src="images/whiteheart.png" style="width:10%">
+          <span class="likes">2.4k</span>
+        </div>
+        <div class="creator">@babaton</div>
+      </div>
+    </div>
+    
+<!--     <div class="column" onclick="openTab('GirlsNight');">
+      <div class="card">
+        <img src="images/style2.png" alt="GirlsNight" style="width:100%">
+        <p class="title">Girls Night</p>
+        <div class="creator">@babaton</div>
+        <img class="heart" src="images/whiteheart.png" style="width:10%">
+        <div class="likes">2.4k</div>
+      </div>
+    </div> -->
+
+    <div class="column" onclick="openTab('PastelPalace');">
+      <div class="card">
+        <img src="images/style3.png" alt="PastelPalace" style="width:100%">
+        <div class="title">
+          Pastel Palace &nbsp &nbsp   
+          <img class="heart" src="images/whiteheart.png" style="width:10%">
+          <span class="likes">8.9k</span>
+        </div>
+        <div class="creator">@wilfred</div>
+      </div>
+    </div>
+    
+<!--     <div class="column" onclick="openTab('PastelPalace');">
+      <div class="card">
+        <img src="images/style3.png" alt="PastelPalace" style="width:100%">
+        <p class="title">Pastel Palace</p>
+        <div class="creator">@wilfred</div>
+        <img class="heart" src="images/whiteheart.png" style="width:10%">
+        <div class="likes">8.9k</div>
+      </div>
+    </div> -->
+
+    <div class="row">
+    <div class="column" onclick="openTab('CreamDream');">
+      <div class="card">
+        <img src="images/style4.png" alt="CreamDream" style="width:100%">
+        <div class="title">
+          Cream Dream &nbsp
+          <img class="heart" src="images/redheart.png" style="width:10%">
+          <span class="likes">10.2k</span>
+        </div>
+        <div class="creator">@mel1567</div>
+      </div>
+    </div>
+
+<!--     <div class="column" onclick="openTab('CreamDream');">
+      <div class="card">
+        <img src="images/style4.png" alt="CreamDream" style="width:100%">
+        <p class="title">Cream Dream</p>
+        <div class="creator">@mel1567</div>
+        <img class="heart" src="images/redheart.png" style="width:10%">
+        <div class="likes">10.2k</div>
+      </div>
+    </div> -->
+  </div>
+
+
+    
+  <!-- The expanding info on shared style (hidden by default) -->
+  <div id="CozySummer" class="containerTab" style="display:none;background:lightgray">
+    <!-- If you want the ability to close the container, add a close button -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+
+<!--     Cozy Summer Top -->
+    <div class="row">
+      <div class="column" onclick="openTab('CozySummer');">
+        <div class="productCard">
+          <img src="images/style1top.png" alt="style1top" style="width:100%">
+          <div class="brand">TNA</div>
+          <div class="productName">Terry Fleece Zip Hoodie    $80</div>
+<!--           <div class="price">$35</div> -->
+          <img class="productColours" src="images/style1topcolor.png" style="width:50%">
+          <div class=quickView>
+            <a href="https://www.aritzia.com/en/product/terry-fleece-boyfriend-boxy-zip-hoodie/102326.html">Quick View</a>
+          </div>
+          <div class=styleProduct>
+            <a href="">Style Product</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column" onclick="openTab('CozySummer');">
+        <div class="productCard">
+          <img src="images/style1top2.png" alt="style1top2" style="width:100%">
+          <div class="brand">TNA</div>
+          <div class="productName">Ribbed Racer Tank   $25</div>
+<!--           <div class="price">$35</div> -->
+          <img class="productColours" src="images/style1topcolor.png" style="width:50%">
+          <div class=quickView>
+            <a href="https://www.aritzia.com/en/product/ribbed-racer-tank/102544.html?dwvar_102544_color=4425">Quick View</a>
+          </div>
+          <div class=styleProduct>
+            <a href="">Style Product</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="column" onclick="openTab('CozySummer');">
+        <div class="productCard">
+          <img class = "shorts" src="images/style1bottom.png" alt="style1bottom" style="width:100%">
+          <div class="brand">TNA</div>
+          <div class="productName">Terry Fleece Perfect Hi-Rise 3" Sweatshort    $40</div>
+<!--           <div class="price">$35</div> -->
+          <img class="productColours" src="images/style1topcolor.png" style="width:50%">
+          <div class=quickView>
+            <a href="https://www.aritzia.com/en/product/terry-fleece-perfect-hi-rise-3%22-sweatshort/96611.html">Quick View</a>
+          </div>
+          <div class=styleProduct>
+            <a href="">Style Product</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="GirlsNight" class="containerTab" style="display:none;background:lightgray">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Put Clothing Item Cards here</h2>
+  </div>
+  
+  <div id="PastelPalace" class="containerTab" style="display:none;background:lightgray">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Put Clothing Item Cards here</h2>
+  </div>
+
+  <div id="CreamDream" class="containerTab" style="display:none;background:lightgray">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Put Clothing Item Cards here</h2>
+  </div>
+
+
+  <!-- Next Row Of Shared Styles -->
+  <div class="row">
+    <div class="column" onclick="openTab('CozySummer');">
+      <div class="card">
+        <img src="images/interview.jpg" alt="CozySummer" style="width:100%">
+        <div class="title">
+          Interview Prep &nbsp
+          <img class="heart" src="images/whiteheart.png" style="width:10%">
+          <span class="likes">3.7k</span>
+        </div>
+        <div class="creator">@hannah2001</div>
+      </div>
+    </div>
+
+    <div class="column" onclick="openTab('GirlsNight');">
+      <div class="card">
+        <img src="images/spring.jpg" alt="GirlsNight" style="width:100%">
+        <div class="title">
+          Spring Feel &nbsp
+          <img class="heart" src="images/redheart.png" style="width:10%">
+          <span class="likes">104</span>
+        </div>
+        <div class="creator">@claire</div>
+      </div>
+    </div>
+
+    <div class="column" onclick="openTab('PastelPalace');">
+      <div class="card">
+        <img src="images/black.jpg" alt="PastelPalace" style="width:100%">
+        <div class="title">
+          Back to Black &nbsp &nbsp   
+          <img class="heart" src="images/whiteheart.png" style="width:10%">
+          <span class="likes">2.4k</span>
+        </div>
+        <div class="creator">@alexx2</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" onclick="openTab('CreamDream');">
+        <div class="card">
+          <img src="images/color.jpg" alt="CreamDream" style="width:100%">
+          <div class="title">
+            Color Fun &nbsp
+            <img class="heart" src="images/whiteheart.png" style="width:10%">
+            <span class="likes">7.4k</span>
+          </div>
+          <div class="creator">@kellyyi</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Next Row Of Shared Styles -->
+  <div class="row">
+    <div class="column" onclick="openTab('CozySummer');">
+      <div class="card">
+        <img src="images/picnic.jpg" alt="CozySummer" style="width:100%">
+        <div class="title">
+          Picnic Wear &nbsp
+          <img class="heart" src="images/whiteheart.png" style="width:10%">
+          <span class="likes">11.8k</span>
+        </div>
+        <div class="creator">@sarahh</div>
+      </div>
+    </div>
+
+    <div class="column" onclick="openTab('GirlsNight');">
+      <div class="card">
+        <img src="images/lunch.jpg" alt="GirlsNight" style="width:100%">
+        <div class="title">
+          Lunch Date &nbsp &nbsp &nbsp
+          <img class="heart" src="images/whiteheart.png" style="width:10%">
+          <span class="likes">17.0k</span>
+        </div>
+        <div class="creator">@joan12345</div>
+      </div>
+    </div>
+
+    <div class="column" onclick="openTab('PastelPalace');">
+      <div class="card">
+        <img src="images/men.jpg" alt="PastelPalace" style="width:100%">
+        <div class="title">
+          For Men &nbsp &nbsp   
+          <img class="heart" src="images/redheart.png" style="width:10%">
+          <span class="likes">7.3k</span>
+        </div>
+        <div class="creator">@benjamink</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column" onclick="openTab('CreamDream');">
+        <div class="card">
+          <img src="images/fall.jpg" alt="CreamDream" style="width:100%">
+          <div class="title">
+            Fall Faves &nbsp
+            <img class="heart" src="images/redheart.png" style="width:10%">
+            <span class="likes">6.4</span>
+          </div>
+          <div class="creator">@hellograce</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>

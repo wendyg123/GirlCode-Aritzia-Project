@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Styles | Everyday </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script>
+    /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+    function drawDownFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+  // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+  
+<!-- AritziaTopBar -->
+	<div class="about">
+		<img width="200px" height="400px" class="aritziatopbar" src="topbar.png"/>
+	</div>
+
+   <div class="yourstyle">
+     <a href="yourstyle.html">My Styles</a>
+   </div>
+
+  <div class="sharedstyles">
+     <a href="sharedstyles1.html">Shared Styles</a>
+  </div>
+
+
+  <!-- myClosetDropdown  -->
+  <div class="dropdown">
+    <button onclick="drawDownFunction()" class="dropbtn">Business Casual^</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">Add New Categories</a>
+      <a href="everydayStyle.html">Everyday</a>
+      <a href="Business Casual">Business Casual</a>
+      <a href="yourstyle.html">Back to My Closet</a>
+      
+    </div>
+  </div>
+
+  <img width="90%" height="90%"
+      class="everydayContent" src="Bussiness Casual.png"/>
+  
+
+
+
+
+</html>
+
